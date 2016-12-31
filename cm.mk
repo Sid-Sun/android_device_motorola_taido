@@ -14,10 +14,11 @@
 
 $(call inherit-product, device/motorola/taido/full_taido.mk)
 
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
+$(call inherit-product, device/motorola/taido/BoardConfigKernel.mk)
 
-PRODUCT_NAME := omni_taido
+PRODUCT_NAME := cm_taido
 BOARD_VENDOR := motorola
 PRODUCT_DEVICE := taido
 

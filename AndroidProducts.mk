@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-   device/motorola/taido/omni_taido.mk
+   device/motorola/taido/cm.mk
